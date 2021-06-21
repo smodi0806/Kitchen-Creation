@@ -1,0 +1,169 @@
+html,body{
+    background-color: #fff;
+    font-family: 'Source Sans Pro',sans-serif;
+    overflow-x: hidden !important;
+    margin: 0px !important;
+    padding: 0px !important;
+}
+
+
+*{
+    text-align: none !important;
+}
+
+
+.nav{
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 25px 0 25px;
+    background-color: #fff;
+    box-shadow: 0 19px 38px rgba(0, 0, 0,0.10);
+    border-bottom-left-radius: 10px;
+     border-bottom-right-radius: 10px;
+}
+
+
+
+.nav .links a{
+    margin-right: 25px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #000;
+}
+
+
+.nav h1{
+    font-weight: bold;
+    margin-left: 25px;
+}
+
+
+
+.landing{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10vw 0 10vw;
+    height: 100vh;
+    overflow-y: hidden;
+}
+
+
+
+.landingText h4{
+    font-size: 6vw;
+    margin: 0 !important;
+
+}
+
+.landingText .btn1{
+    width: 120px;
+    margin-top: 30px;
+    font-size: 1.2vw;
+    padding: 14px 20px 14px 20px;
+    background-color: #2f8be0;
+    color: #fff;
+    border-radius: 45px;
+
+}
+
+
+.landingText .btn2{
+    width: 120px;
+    margin-top: 30px;
+    font-size: 1.2vw;
+    padding: 14px 20px 14px 20px;
+    background-color: #2f8be0;
+    color: #fff;
+    border-radius: 45px;
+    text-align: center;
+
+}
+
+
+
+.landingText .btn1 a{
+    font-size: 1.2vw;
+    color: #fff;
+}
+
+.landingText .btn2 a{
+    font-size: 1.2vw;
+    color: #fff;
+}
+
+
+.landingText img{
+    width: 28vw;
+}
+
+
+
+.about{
+    height: 600px;
+    padding: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+.aboutText{
+    position: relative;
+    padding: 0 50px;
+    height: inherit;
+
+}
+
+.aboutText h1{
+    position: relative;
+    left: 110px;
+}
+
+
+.aboutlist{
+    width: 60%;
+}
+
+ol{
+    list-style: none;
+    color: #e0501b;
+}
+
+ol li{
+    font-size: 34px;
+    position: relative;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ebebeb;
+}
+
+
+li p{
+    font-size: 16px;
+    color: #000;
+    padding-left: 60px;
+    line-height: 30px;
+    opacity: 0.6;
+}
+
+li span{
+    position: absolute;
+    line-height:25px;
+    font-weight: 600;
+}
+
+}
+#footer{
+    background-color: black;
+    
+}
